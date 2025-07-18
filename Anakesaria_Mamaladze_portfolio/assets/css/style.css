@@ -1,0 +1,53 @@
+#Photo-of-Ana-Kesaria {
+  border-radius: 50%;
+  object-fit: cover ;
+  width: 150px;
+  height: 150px;
+}
+body {
+  background-color: pink; 
+}
+#skills-table {
+  border-collapse: collapse; 
+  width: 80%;
+}
+
+#skills-table th,
+#skills-table td {
+  border: 1px solid black;  
+  padding: 8px 12px;         
+  text-align: left;
+}
+.welcome{
+  color: #e91e63;         
+  font-size: 40px;        
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 2px; 
+}
+footer {
+  background-color:black;
+  color:white;
+  text-align: center;
+  margin-top: 40px;
+}
+div {
+  margin-top: 20px;   
+  margin-bottom: 20px; 
+}
+#messagebox {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(0, 0, 255, 0.512);
+    font-size:30px ;
+    width: 200px;
+    height:80px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color:  rgb(184, 39, 129);
+    border:3px solid rgb(74, 11, 61)
+}
+label {
+font-style: italic;
+font-weight: bold;
+}

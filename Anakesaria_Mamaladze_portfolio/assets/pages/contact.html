@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Ana Kesaria</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Contact Me</h1>
+    <nav>
+      <ul>
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2 id="messagebox">Send me a message</h2>
+<form method="post">
+  <div>
+    <label for="name">Your Name:</label>
+  </div>
+  <div>
+    <input type="text" id="name" name="name" required minlength="2" placeholder="Enter your name">
+  </div>
+
+  <div>
+    <label for="email">Your Email:</label>
+  </div>
+  <div>
+    <input type="email" id="email" name="email" required placeholder="you@example.com">
+  </div>
+
+  <div>
+    <label for="contact-method">Preferred Contact:</label>
+  </div>
+  <div>
+    <select id="contact-method" name="contact-method" required>
+      <option value="email">Email</option>
+      <option value="phone">Phone</option>
+      <option value="social">Social Media</option>
+    </select>
+  </div>
+
+  <div>
+    <label for="message">Message:</label>
+  </div>
+  <div>
+    <textarea id="message" name="message" rows="5" cols="40" placeholder="Write your message..." required></textarea>
+  </div>
+
+  <div>
+    <button type="submit">Submit</button>
+  </div>
+</form>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Ana Kesaria</p>
+  </footer>
+
+</body>
+</html>
